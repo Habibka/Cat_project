@@ -1,0 +1,37 @@
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0);
+	width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 19%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-contents {
+    overflow: auto;
+	height: 50%;
+	width: 50%;
+	background-color: rgb(238, 157, 27);
+	text-align: center;
+	padding: 20px;
+	position: relative;
+    border-radius: 10px;
+}
+
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.close:hover {
+    color: #666;
+  }
+
